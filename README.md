@@ -18,6 +18,9 @@ Loaded Command #3: ban             | Loaded in 0.09710001945495605    ms
 ```
 If an error has occured, some red text will appear. Always report these to my Discord! 
 
+## Important argument notice
+When specifying a ``Player`` argument, you can optionally use ``me`` or ``all`` to specify yourself or all players connected to the server, instead of specifying a player's name.
+
 ## Command documentation
 | CommandName | Description | Arguments | Aliases | Rank |
 | ----------- | ----------- | --------- | ------- | ---- |
@@ -25,3 +28,5 @@ If an error has occured, some red text will appear. Always report these to my Di
 | Kick        | Kick a player from the server | <Player1: Player> | boot | Trainer+(11) |
 | Ban         | Ban a player from the experience | <Player1: Player> ?<Reason: string> | banana | Head Director+(20) |
 | Refresh     | Reload a player's character and put them in the same spot they were before | ?<Player1: Player> | reset, loadcharacter | Trainer+(11) |
+| Lock        | Lock a player in place | <Player1: Player> | | Trainer+(11) |
+| Unlock      | Unlock a player out of plaace | <Player1: Player> | | Trainer+(11) |
