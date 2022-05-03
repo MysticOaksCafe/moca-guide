@@ -24,3 +24,4 @@ If an error has occured, some red text will appear. Always report these to my Di
 | Teleport    | Teleport either yourself or another player to some player | <Player1: Player> ?<Player2: Player> | tp | Trainer+(11) |
 | Kick        | Kick a player from the server | <Player1: Player> | boot | Trainer+(11) |
 | Ban         | Ban a player from the experience | <Player1: Player> ?<Reason: string> | banana | Head Director+(20) |
+| Refresh     | Reload a player's character and put them in the same spot they were before | ?<Player1: Player> | reset, loadcharacter | Trainer+(11) |
